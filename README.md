@@ -5,9 +5,9 @@ Coursera's [Python for Everybody Specialization](https://www.coursera.org/specia
 ### Specialization Details
 
 1. [Programming for Everybody](https://www.coursera.org/learn/python?specialization=python)
-    - Assignments
+    - [Assignments](https://github.com/TheChandaChen/Python_for_Everybody/tree/Assignments/1.%20Programming%20for%20Everybody)
 2. [Python Data Structures](https://www.coursera.org/learn/python-data?specialization=python)
-    - Assignments
+    - [Assignments](https://github.com/TheChandaChen/Python_for_Everybody/tree/Assignments/2.%20Python%20Data%20Structures)
 3. [Using Python to Access Web Data](https://www.coursera.org/learn/python-network-data?specialization=python)
     - Assignments
 4. [Using Databases with Python](https://www.coursera.org/learn/python-databases?specialization=python)
