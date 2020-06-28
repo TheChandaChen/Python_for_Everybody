@@ -21,8 +21,8 @@ I attempt all assignments without help and therefore the codes may not be the sa
 
 ### Additional Materials
 
-Additional course materials can be found [here](https://www.py4e.com/) </br>
-Textbook for the course can be found [here](https://github.com/TheChandaChen/Python_for_Everybody/blob/Assignments/Textbook.pdf)
+Additional course materials can be found [here](https://www.py4e.com/). </br>
+Textbook for the course can be found [here](https://github.com/TheChandaChen/Python_for_Everybody/blob/Assignments/Textbook.pdf).
 
 ### Lecturer
 
