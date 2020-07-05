@@ -3,15 +3,15 @@ score = input("Enter Score: ")
 try:
     s = float(score)
 except:
-    print("Error, input numeric number.")
+    print("Error, enter numeric input.")
     quit()
 
 # tests if the input is between 0 and 1
 if s > 1:
-    print("Error, input number between 0 and 1.")
+    print("Error, enter number between 0 and 1.")
     quit()
 elif s < 0:
-    print("Error, input number between 0 and 1.")
+    print("Error, enter number between 0 and 1.")
     quit()
 
 # prints out letter grade based on score

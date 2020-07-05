@@ -6,7 +6,7 @@ try:
     r = float(rate)
 except:
     print("Error, enter numeric input.")
-    quit()   # Ends the program. Run program again to correct the inputs
+    quit()  # Ends the program. Run program again to correct the inputs
 
 # Any hours over 40 is 1.5 of rate
 if h <= 40:

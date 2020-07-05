@@ -1,15 +1,17 @@
 # computepay is computing the user's pay
 def computepay(h, r):
     if h <= 40:
-        p = h * r
+        pay = h * r
+        return pay
     else:
         overtime = (h - 40) * (1.5 * r)
-        p = (40 * r) + overtime
-    return p
+        pay = (40 * r) + overtime
+        return pay
 
 
 hrs = input('Enter Hours: ')
 rate = input('Enter Rate: ')
+
 # Use try/except to catch any problems a user may input
 try:
     h = float(hrs)
