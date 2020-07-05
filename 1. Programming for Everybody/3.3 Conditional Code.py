@@ -1,24 +1,27 @@
 score = input("Enter Score: ")
+# try/except tests if user input is a numeric number
 try:
-    score = float(score)
+    s = float(score)
 except:
-    print("Error, please enter a numerical number.")
+    print("Error, input numeric number.")
     quit()
 
-if score < 0.0:
-    print("Error, please enter a score between 0 and 1")
+# tests if the input is between 0 and 1
+if s > 1:
+    print("Error, input number between 0 and 1.")
     quit()
-elif score > 1.0:
-    print ("Error, please enter a score between 0 and 1")
+elif s < 0:
+    print("Error, input number between 0 and 1.")
     quit()
 
-if score >= 0.9:
-    print ("A")
-elif score >= 0.8:
-    print ("B")
-elif score >= 0.7:
-    print ("C")
-elif score >= 0.6:
-    print ("D")
-elif score < 0.6:
-    print ("F")
+# prints out letter grade based on score
+if s >= 0.9:
+    print("A")
+elif s >= 0.8:
+    print("B")
+elif s >= 0.7:
+    print("C")
+elif s >= 0.6:
+    print("D")
+else:
+    print("F")
