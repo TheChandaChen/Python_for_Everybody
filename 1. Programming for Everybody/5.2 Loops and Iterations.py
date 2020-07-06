@@ -14,14 +14,14 @@ while True:
 # can't use for statement because 'for' is for
 # lists, tuple, dictionary, set, or string
     if smallest is None:
-            smallest = value
+        smallest = value
     elif value < smallest:
-            smallest = value
+        smallest = value
 
     if largest is None:
-            largest = value
+        largest = value
     elif value > largest:
-            largest = value
+        largest = value
 
 print("Maximum is", largest)
 print("Minimum is", smallest)
