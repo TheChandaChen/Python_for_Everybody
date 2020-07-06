@@ -11,8 +11,8 @@ while True:
         print("Invalid input")
         continue
 
-#can't use for statement because value and num is only one number
-#value is not a list of numbers
+# can't use for statement because 'for' is for
+# lists, tuple, dictionary, set, or string
     if smallest is None:
             smallest = value
     elif value < smallest:
