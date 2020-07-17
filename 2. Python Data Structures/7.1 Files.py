@@ -1,3 +1,4 @@
+#Use the file name words.txt
 fname = input("Enter file name: ")
 
 #ensures file name is typed in properly and exists
