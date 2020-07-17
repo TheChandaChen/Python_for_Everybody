@@ -14,4 +14,4 @@ for email in handle:
 
 # sorts the dictionary items (tuples) and prints out the sorted hour and counter
 for hour, counter in sorted(count.items()):   # sorted(count.items()) is a lsit of tuples
-    print(hour, counter)
+    print(hour, counter)   # prints out each tuple individually
