@@ -12,7 +12,6 @@ for email in handle:
         hour = split_time[0]
         count[hour] = count.get(hour, 0) + 1
 
-#creates a list with the key/values from dictionary and sorts the list by hour(key)
-hour_counter = list()
-for hour, counter in sorted(count.items()):
+# sorts the dictionary items (tuples) and prints out the sorted hour and counter
+for hour, counter in sorted(count.items()):   # sorted(count.items()) is a lsit of tuples
     print(hour, counter)
