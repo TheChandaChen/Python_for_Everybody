@@ -1,4 +1,4 @@
-name = input("Enter file:")
+name = input("Enter file name: ")
 if len(name) < 1 : name = "mbox-short.txt"
 handle = open(name)
 
