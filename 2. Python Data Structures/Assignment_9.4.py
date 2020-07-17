@@ -1,23 +1,18 @@
-name = input("Enter file:")
-if len(name) < 1 : name = "mbox-short.txt"
+name = input("Enter file name: ")
 handle = open(name)
 
-counts = dict()
+count = dict()
 for line in handle:
     line = line.rstrip()
-    if not line.startswith('From '):
-        continue
-    words = line.split()
-    email = words[1]
-    #do not need for word in email: or whatever because it's only one variable
-    #we are not looking at all the words in the line, just one word
-    counts[email] = counts.get(email, 0) + 1
+    if line.startswith("From "):   # Need the space after "From" or it counts twice b/c of "From:"
+        words = line.split()
+        email = words[1]
+        count[email] = count.get(email, 0) + 1
 
-bigcount = None
 bigword = None
-for word, count in counts.items():
+bigcount = None
+for word, count in count.items():
     if bigcount is None or count > bigcount:
         bigword = word
         bigcount = count
-
 print(bigword, bigcount)
