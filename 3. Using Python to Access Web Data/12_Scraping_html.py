@@ -7,14 +7,14 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-# All inputs from the user
+# All inputs from the user + changing type to integer
 url = input('Enter URL: ')
 count = input('Enter count: ')
 count = int(count)
 position = input("Enter position: ")
 position = int(position) - 1
 
-# Loop to follow the links
+# Loop that follows the links
 while count > 0:
     count -= 1   # Count of how many times we followed the links
 
