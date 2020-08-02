@@ -15,11 +15,11 @@ soup = BeautifulSoup(html, 'html.parser')
 sum = 0
 
 # Retrieve all span tags
-tags = soup('span')
+spans = soup('span')
 
 # Split span tags to only have numbers
-for tag in tags:
-    string = str(tag)
+for span in spans:
+    string = str(span)
     comments_split = string.split('>')
     comments_unfinished = comments_split[1]
     comments_split_twice = comments_unfinished.split('<')
